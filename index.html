@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Windows XP Portfolio - Rishith Chintala</title>
+  <meta name="title" content="Windows XP Portfolio - Rishith Chintala" />
+  <meta name="description" content="Authentic Windows XP-style portfolio showcasing photography, 3D design, and 2D design work. Interactive retro experience with draggable windows, classic games, and Clippy assistant." />
+  <meta name="author" content="Rishith Chintala" />
+  <meta name="keywords" content="portfolio, windows xp, retro design, photography, 3d design, 2d design, interactive portfolio, web development" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-username.github.io/portfolio-xp/" />
+  <meta property="og:title" content="Windows XP Portfolio - Rishith Chintala" />
+  <meta property="og:description" content="Authentic Windows XP-style portfolio showcasing photography, 3D design, and 2D design work. Interactive retro experience with draggable windows, classic games, and Clippy assistant." />
+  <meta property="og:image" content="https://your-username.github.io/portfolio-xp/og-image.png" />
+  <meta property="og:site_name" content="Rishith Chintala Portfolio" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://your-username.github.io/portfolio-xp/" />
+  <meta property="twitter:title" content="Windows XP Portfolio - Rishith Chintala" />
+  <meta property="twitter:description" content="Authentic Windows XP-style portfolio showcasing photography, 3D design, and 2D design work. Interactive retro experience with draggable windows, classic games, and Clippy assistant." />
+  <meta property="twitter:image" content="https://your-username.github.io/portfolio-xp/og-image.png" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23316AC5'/%3E%3Cg transform='translate(8 8)'%3E%3Crect width='8' height='8' fill='%23ff6b35' rx='1'/%3E%3Crect x='9' width='7' height='8' fill='%237db46c' rx='1'/%3E%3Crect y='9' width='8' height='7' fill='%234fc3f7' rx='1'/%3E%3Crect x='9' y='9' width='7' height='7' fill='%23ffeb3b' rx='1'/%3E%3C/g%3E%3C/svg%3E" />
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/portfolio-xp/manifest.json" />
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#316AC5" />
+  <meta name="msapplication-TileColor" content="#316AC5" />
+  <meta name="msapplication-config" content="/portfolio-xp/browserconfig.xml" />
+  
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' fill='%23316AC5' rx='20'/%3E%3Cg transform='translate(45 45)'%3E%3Crect width='45' height='45' fill='%23ff6b35' rx='4'/%3E%3Crect x='49' width='41' height='45' fill='%237db46c' rx='4'/%3E%3Crect y='49' width='45' height='41' fill='%234fc3f7' rx='4'/%3E%3Crect x='49' y='49' width='41' height='41' fill='%23ffeb3b' rx='4'/%3E%3C/g%3E%3C/svg%3E" />
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  
+  <!-- Schema.org markup for Google+ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Windows XP Portfolio - Rishith Chintala",
+    "description": "Authentic Windows XP-style portfolio showcasing photography, 3D design, and 2D design work",
+    "url": "https://your-username.github.io/portfolio-xp/",
+    "author": {
+      "@type": "Person",
+      "name": "Rishith Chintala",
+      "email": "rishithchintala@gmail.com",
+      "url": "https://www.linkedin.com/in/rishith-chintala-012553232"
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "Rishith Chintala"
+    },
+    "keywords": "portfolio, windows xp, retro design, photography, 3d design, 2d design, interactive portfolio",
+    "inLanguage": "en-US"
+  }
+  </script>
+  
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  
+  <!-- Performance hints -->
+  <link rel="dns-prefetch" href="//images.unsplash.com" />
+  <link rel="preload" href="/portfolio-xp/styles/globals.css" as="style" />
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/portfolio-xp/sw.js')
+          .then((registration) => {
+            console.log('SW registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+  
+  <script type="module" src="/App.tsx"></script>
+</body>
+</html>

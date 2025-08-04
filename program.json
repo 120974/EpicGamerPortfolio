@@ -1,0 +1,424 @@
+{
+  "name": "Windows XP Portfolio",
+  "short_name": "XP Portfolio", 
+  "description": "Rishith Chintala's portfolio website designed as an authentic Windows XP experience",
+  "version": "1.0.0",
+  "homepage": "https://your-username.github.io/portfolio-xp/",
+  "start_url": "/portfolio-xp/",
+  "display": "standalone",
+  "theme_color": "#316AC5",
+  "background_color": "#ECE9D8",
+  "orientation": "any",
+  "scope": "/portfolio-xp/",
+  "categories": ["portfolio", "design", "retro"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%23316AC5'/%3E%3Cg transform='translate(48 48)'%3E%3Crect width='48' height='48' fill='%23ff6b35' rx='4'/%3E%3Crect x='52' width='44' height='48' fill='%237db46c' rx='4'/%3E%3Crect y='52' width='48' height='44' fill='%234fc3f7' rx='4'/%3E%3Crect x='52' y='52' width='44' height='44' fill='%23ffeb3b' rx='4'/%3E%3C/g%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%23316AC5'/%3E%3Cg transform='translate(128 128)'%3E%3Crect width='128' height='128' fill='%23ff6b35' rx='8'/%3E%3Crect x='140' width='116' height='128' fill='%237db46c' rx='8'/%3E%3Crect y='140' width='128' height='116' fill='%234fc3f7' rx='8'/%3E%3Crect x='140' y='140' width='116' height='116' fill='%23ffeb3b' rx='8'/%3E%3C/g%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1280' height='720' viewBox='0 0 1280 720'%3E%3Crect width='1280' height='720' fill='%23ECE9D8'/%3E%3Ctext x='640' y='360' text-anchor='middle' font-family='Tahoma' font-size='48' fill='%23316AC5'%3EWindows XP Portfolio%3C/text%3E%3C/svg%3E",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Windows XP Desktop Experience"
+    }
+  ],
+  "deploy": {
+    "target": "github-pages",
+    "base": "/portfolio-xp/",
+    "build": {
+      "outDir": "dist",
+      "assetsDir": "assets"
+    }
+  },
+  "portfolio": {
+    "owner": {
+      "name": "Rishith Chintala",
+      "title": "Creative Portfolio",
+      "description": "Windows XP-style portfolio showcasing photography, 3D design, and 2D design work",
+      "contact": {
+        "email": "rishithchintala@gmail.com",
+        "phone": "(123) 456-7890",
+        "location": "United States",
+        "linkedin": "https://www.linkedin.com/in/rishith-chintala-012553232"
+      }
+    },
+    "categories": [
+      {
+        "id": "photography",
+        "name": "Photography",
+        "icon": "📸",
+        "color": "#38a169",
+        "darkColor": "#68d391",
+        "description": "Professional photography work spanning urban landscapes, portraits, abstracts, and street photography",
+        "count": 4
+      },
+      {
+        "id": "3d",
+        "name": "3D Design",
+        "icon": "🎯",
+        "color": "#805ad5",
+        "darkColor": "#9f7aea",
+        "description": "3D modeling, rendering, and visualization projects including architectural and product design",
+        "count": 2
+      },
+      {
+        "id": "2d",
+        "name": "2D Design",
+        "icon": "🎨",
+        "color": "#ed8936",
+        "darkColor": "#f6ad55",
+        "description": "Graphic design, branding, illustration, and interface design projects",
+        "count": 4
+      }
+    ],
+    "projects": [
+      {
+        "id": "photo1",
+        "title": "Urban Landscapes",
+        "category": "photography",
+        "type": "Photography Series",
+        "year": "2024",
+        "status": "completed",
+        "featured": true,
+        "description": "A collection of urban landscape photography capturing the intersection of architecture and natural light in metropolitan environments.",
+        "detailDescription": "This photography series explores the dynamic relationship between built environments and natural elements. Shot during golden hour and blue hour, these images showcase how light transforms urban spaces into artistic compositions.",
+        "technique": "Digital Photography",
+        "equipment": "Canon EOS R5, 24-70mm f/2.8",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?w=800&h=600&fit=crop"
+        },
+        "tags": ["urban", "architecture", "landscape", "golden hour", "cityscape"],
+        "specifications": {
+          "camera": "Canon EOS R5",
+          "lens": "24-70mm f/2.8",
+          "settings": "Various (f/8-f/11, ISO 100-400)",
+          "postProcessing": "Adobe Lightroom, Photoshop"
+        }
+      },
+      {
+        "id": "photo2",
+        "title": "Portrait Stories",
+        "category": "photography",
+        "type": "Portrait Photography",
+        "year": "2024",
+        "status": "completed",
+        "featured": true,
+        "description": "Documentary-style portraits capturing authentic moments and emotions of people from diverse backgrounds and cultures.",
+        "detailDescription": "Each portrait tells a unique story, captured in natural lighting with minimal post-processing to preserve authenticity. The series focuses on genuine expressions and the character that emerges through careful composition.",
+        "technique": "Natural Light Photography",
+        "equipment": "Sony A7R IV, 85mm f/1.4",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop&crop=face",
+          "detail2": "https://images.unsplash.com/photo-1494790108755-2616b612b776?w=800&h=600&fit=crop&crop=face"
+        },
+        "tags": ["portrait", "documentary", "natural light", "storytelling", "emotion"],
+        "specifications": {
+          "camera": "Sony A7R IV",
+          "lens": "85mm f/1.4",
+          "settings": "f/1.4-f/2.8, ISO 100-800",
+          "postProcessing": "Minimal editing, Adobe Lightroom"
+        }
+      },
+      {
+        "id": "photo3",
+        "title": "Nature Abstracts",
+        "category": "photography",
+        "type": "Abstract Photography",
+        "year": "2024",
+        "status": "completed",
+        "featured": false,
+        "description": "Abstract compositions found in nature, focusing on patterns, textures, and colors that create compelling visual narratives.",
+        "detailDescription": "This collection transforms natural elements into abstract art through close-up photography and unique angles. Water reflections, leaf patterns, and rock formations become graphic elements in these compositions.",
+        "technique": "Macro & Close-up Photography",
+        "equipment": "Nikon Z9, 105mm Macro f/2.8",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop"
+        },
+        "tags": ["abstract", "nature", "macro", "patterns", "textures"],
+        "specifications": {
+          "camera": "Nikon Z9",
+          "lens": "105mm Macro f/2.8",
+          "settings": "f/8-f/16, ISO 100-400",
+          "postProcessing": "Adobe Photoshop, selective adjustments"
+        }
+      },
+      {
+        "id": "photo4",
+        "title": "Street Photography",
+        "category": "photography",
+        "type": "Documentary Photography",
+        "year": "2024",
+        "status": "completed",
+        "featured": false,
+        "description": "Candid moments captured in urban environments, documenting daily life and human interactions in public spaces.",
+        "detailDescription": "Street photography that captures the spontaneous beauty of everyday life. These images focus on decisive moments, interesting characters, and the poetry found in ordinary situations.",
+        "technique": "Candid Photography",
+        "equipment": "Fujifilm X-T5, 35mm f/1.4",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&h=600&fit=crop"
+        },
+        "tags": ["street", "documentary", "candid", "urban life", "storytelling"],
+        "specifications": {
+          "camera": "Fujifilm X-T5",
+          "lens": "35mm f/1.4",
+          "settings": "f/2.8-f/5.6, ISO 200-3200",
+          "postProcessing": "Film simulation, minimal editing"
+        }
+      },
+      {
+        "id": "3d1",
+        "title": "Architectural Visualization",
+        "category": "3d",
+        "type": "3D Rendering",
+        "year": "2024",
+        "status": "completed",
+        "featured": true,
+        "description": "Photorealistic architectural renderings showcasing modern residential and commercial building designs.",
+        "detailDescription": "These 3D visualizations bring architectural concepts to life with careful attention to lighting, materials, and environmental context. Each render demonstrates mastery of spatial design and photorealistic rendering techniques.",
+        "technique": "3D Modeling & Rendering",
+        "equipment": "Blender, V-Ray, Photoshop",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop"
+        },
+        "tags": ["architecture", "3d rendering", "visualization", "modern design", "photorealistic"],
+        "specifications": {
+          "software": "Blender 4.0, V-Ray",
+          "renderEngine": "V-Ray",
+          "resolution": "4K (3840x2160)",
+          "postProcessing": "Adobe Photoshop"
+        }
+      },
+      {
+        "id": "3d2",
+        "title": "Product Design",
+        "category": "3d",
+        "type": "3D Product Visualization",
+        "year": "2024",
+        "status": "completed",
+        "featured": true,
+        "description": "Industrial design concepts rendered in 3D, featuring consumer electronics and furniture with detailed material studies.",
+        "detailDescription": "Product design portfolio showcasing the complete design process from concept sketches to final 3D renders. Focus on ergonomics, aesthetics, and manufacturability in consumer product design.",
+        "technique": "3D Modeling & Product Design",
+        "equipment": "SolidWorks, Blender, KeyShot",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop"
+        },
+        "tags": ["product design", "industrial design", "3d modeling", "consumer electronics", "keyshot"],
+        "specifications": {
+          "software": "SolidWorks, Blender, KeyShot",
+          "renderEngine": "KeyShot",
+          "resolution": "4K (3840x2160)",
+          "materials": "PBR materials, custom shaders"
+        }
+      },
+      {
+        "id": "2d1",
+        "title": "Brand Identity",
+        "category": "2d",
+        "type": "Graphic Design",
+        "year": "2024",
+        "status": "completed",
+        "featured": true,
+        "description": "Complete brand identity systems including logos, typography, color palettes, and brand guidelines for various clients.",
+        "detailDescription": "Comprehensive brand identity projects that establish strong visual foundations for businesses. Each project includes extensive research, concept development, and systematic application across multiple touchpoints.",
+        "technique": "Vector Design & Typography",
+        "equipment": "Adobe Illustrator, Photoshop",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?w=800&h=600&fit=crop"
+        },
+        "tags": ["branding", "logo design", "typography", "brand identity", "visual systems"],
+        "specifications": {
+          "software": "Adobe Illustrator, Photoshop",
+          "formats": "Vector (AI, EPS), Raster (PNG, JPG)",
+          "colorSystems": "CMYK, RGB, Pantone",
+          "deliverables": "Logo suite, brand guidelines, applications"
+        }
+      },
+      {
+        "id": "2d2",
+        "title": "Digital Illustrations",
+        "category": "2d",
+        "type": "Digital Art",
+        "year": "2024",
+        "status": "completed",
+        "featured": false,
+        "description": "Original digital illustrations combining traditional art techniques with modern digital tools and workflows.",
+        "detailDescription": "A collection of digital artwork that bridges traditional illustration techniques with contemporary digital methods. These pieces explore character design, environmental art, and conceptual illustration.",
+        "technique": "Digital Painting & Illustration",
+        "equipment": "Adobe Photoshop, Procreate",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop"
+        },
+        "tags": ["digital art", "illustration", "character design", "concept art", "digital painting"],
+        "specifications": {
+          "software": "Adobe Photoshop, Procreate",
+          "resolution": "300 DPI, print-ready",
+          "techniques": "Digital painting, photo manipulation",
+          "formats": "PSD, PNG, JPG"
+        }
+      },
+      {
+        "id": "2d3",
+        "title": "Print Design",
+        "category": "2d",
+        "type": "Editorial Design",
+        "year": "2024",
+        "status": "completed",
+        "featured": false,
+        "description": "Editorial and print design projects including magazine layouts, book covers, and promotional materials.",
+        "detailDescription": "Print design work focusing on typography, layout, and visual hierarchy. Projects include magazine spreads, book design, posters, and packaging that demonstrate strong understanding of print production.",
+        "technique": "Layout Design & Typography",
+        "equipment": "Adobe InDesign, Illustrator",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?w=800&h=600&fit=crop"
+        },
+        "tags": ["editorial design", "print design", "typography", "layout", "magazine design"],
+        "specifications": {
+          "software": "Adobe InDesign, Illustrator",
+          "printSpecs": "CMYK, 300 DPI",
+          "formats": "PDF, INDD, AI",
+          "paperTypes": "Various (coated, uncoated, specialty)"
+        }
+      },
+      {
+        "id": "2d4",
+        "title": "UI/UX Design",
+        "category": "2d",
+        "type": "Interface Design",
+        "year": "2024",
+        "status": "completed",
+        "featured": true,
+        "description": "User interface and experience design for web and mobile applications, focusing on usability and visual appeal.",
+        "detailDescription": "Digital interface design that prioritizes user experience and accessibility. Projects include mobile apps, web interfaces, and design systems that demonstrate user-centered design principles.",
+        "technique": "Interface & Experience Design",
+        "equipment": "Figma, Adobe XD, Sketch",
+        "images": {
+          "featured": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop&crop=center",
+          "detail1": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop",
+          "detail2": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=600&fit=crop"
+        },
+        "tags": ["ui design", "ux design", "interface design", "mobile app", "web design"],
+        "specifications": {
+          "software": "Figma, Adobe XD, Sketch",
+          "platforms": "Web, iOS, Android",
+          "deliverables": "Wireframes, prototypes, design systems",
+          "accessibility": "WCAG 2.1 AA compliant"
+        }
+      }
+    ],
+    "systemApps": [
+      {
+        "id": "about",
+        "title": "About",
+        "description": "Personal information about Rishith Chintala",
+        "position": "center",
+        "icon": "i",
+        "color": "#3182ce"
+      },
+      {
+        "id": "ie",
+        "title": "Internet Explorer",
+        "description": "Web browser application",
+        "category": "system",
+        "icon": "🌐",
+        "color": "#38a169"
+      },
+      {
+        "id": "mydocs",
+        "title": "My Documents",
+        "description": "Document management and resume viewer",
+        "category": "system",
+        "icon": "📁",
+        "color": "#ed8936"
+      },
+      {
+        "id": "mypics",
+        "title": "My Pictures",
+        "description": "Image gallery with 50+ curated images",
+        "category": "system",
+        "icon": "🖼️",
+        "color": "#e53e3e"
+      },
+      {
+        "id": "mymusic",
+        "title": "Windows Media Player",
+        "description": "Music player application",
+        "category": "system",
+        "icon": "🎵",
+        "color": "#805ad5"
+      },
+      {
+        "id": "controlpanel",
+        "title": "Control Panel",
+        "description": "System settings and external links",
+        "category": "system",
+        "icon": "⚙️",
+        "color": "#718096",
+        "action": "external_link",
+        "url": "https://www.linkedin.com/in/rishith-chintala-012553232"
+      },
+      {
+        "id": "recycle",
+        "title": "Recycle Bin",
+        "description": "Deleted program recovery system",
+        "category": "system",
+        "icon": "🗑",
+        "color": "#718096",
+        "position": "bottom-right"
+      }
+    ],
+    "features": [
+      "Authentic Windows XP interface design",
+      "Draggable and resizable windows",
+      "Click-to-zoom image viewing with position-based zooming",
+      "Functional recycle bin with restore capabilities",
+      "Dark mode toggle via turn off button",
+      "Persistent window and icon position saving",
+      "Category-organized desktop layout",
+      "Professional portfolio showcase",
+      "Featured work as third tab within each portfolio",
+      "Responsive design system"
+    ],
+    "technical": {
+      "framework": "React",
+      "styling": "Tailwind CSS v4",
+      "typescript": true,
+      "responsive": true,
+      "localStorage": true,
+      "animations": "CSS transitions and transforms",
+      "imageHandling": "Unsplash integration with fallback system"
+    }
+  }
+}
